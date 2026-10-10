@@ -58,7 +58,7 @@ jobs:
         # (fetches mbedtls-3.6 and links it statically)
         make -C main/avbctl
         curl -o original.zip -L "${{ github.event.inputs.ZIP_URL }}"
-                curl -o magisk.apk -L "https://github.com/printcion/action_big_resign_with_magisk/releases/download/magisk/Magisk.apk"apk')
+        curl -o magisk.apk -L "https://github.com/printcion/action_big_resign_with_magisk/releases/download/magisk/Magisk.apk"
         wget https://raw.githubusercontent.com/magojohnji/magiskboot-linux/main/x86_64/magiskboot
         chmod +x magiskboot
         chmod +x main/*.sh
