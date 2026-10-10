@@ -26,7 +26,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v7
       with:
-        ref: main
+        ref: a9_boot_with_recovery_cpio
         path: main
 
     - name: Setup SSH Keys
